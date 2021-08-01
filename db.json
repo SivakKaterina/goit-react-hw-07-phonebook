@@ -1,0 +1,19 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Marta Soren",
+      "number": "659-56-56"
+    },
+    {
+      "id": 2,
+      "name": "Penelopa Crus",
+      "number": "216-54-98"
+    },
+    {
+      "name": "Пучков Владимир Станиславович",
+      "number": "+5424242424",
+      "id": 3
+    }
+  ]
+}
