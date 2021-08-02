@@ -1,8 +1,8 @@
 import React from 'react';
 import C from './contactList.module.css';
 import { connect } from 'react-redux';
-import { deleteContact } from '../../redux/contacts/contacts-operations';
-import { getVisibleContacts } from '../../redux/contacts/contacts-selector';
+import { deleteContact, getVisibleContacts } from '../../redux/contacts';
+// import { getVisibleContacts } from '../../redux/contacts/contacts-selector';
 
 const ContactList = ({ contacts, onDeleteList }) => (
   <ul>

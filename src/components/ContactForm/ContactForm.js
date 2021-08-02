@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import C from './contactForm.module.css';
 import shortid from 'shortid';
-import { addContact } from '../../redux/contacts/contacts-operations';
-import { getItems } from '../../redux/contacts/contacts-selector';
+import { addContact, getItems } from '../../redux/contacts';
+// import { getItems } from '../../redux/contacts/contacts-selector';
 class ContactForm extends Component {
   state = {
     name: '',
